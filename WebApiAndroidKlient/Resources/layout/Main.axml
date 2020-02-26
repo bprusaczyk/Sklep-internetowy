@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Klienci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EkranGlownyKlienci" />
+    <Button
+        android:text="Koszyk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/koszykEkranGlowny" />
+    <Button
+        android:text="Moje zamówienia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EkranGlownyMojeZamowienia" />
+</LinearLayout>
